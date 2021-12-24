@@ -31,9 +31,9 @@ const Banner = () => {
   }, []);
   return (
     <motion.div className='banner' variants={banner}>
-      <BannerRowTop title={"brand"} />
-      <BannerRowCenter title={"experience"} playMarquee={playMarquee} />
-      <BannerRowBottom title={"studio"} />
+      <BannerRowTop title={"Hsu's"} />
+      <BannerRowCenter title={"2021"} playMarquee={playMarquee} />
+      <BannerRowBottom title={"Recap"} />
     </motion.div>
   );
 };
@@ -70,8 +70,7 @@ const BannerRowTop = ({ title }) => {
         }}
         className='row-col'>
         <span className='row-message'>
-          We are specialised in setting up the foundation of your brand and
-          setting you up for success.
+          Merry Christmas!
         </span>
       </motion.div>
     </div>

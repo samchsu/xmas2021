@@ -13,26 +13,25 @@ const Header = () => {
       }}
       className='header'>
       <div className='header-inner'>
-        <div className='logo'>Ollie</div>
+        <a href='/home'>
+          <div className='logo'>Xmas</div>
+        </a>
         <nav className='nav'>
           <li>
-            <a href='/design'>Design</a>
+            <a href='/spring'>Spring</a>
           </li>
           <li>
-            <a href='/strategy'>Strategy</a>
+            <a href='/summer'>Summer</a>
           </li>
           <li>
-            <a href='/cases'>Cases</a>
+            <a href='/fall'>Fall</a>
           </li>
           <li>
-            <a href='/about'>About</a>
-          </li>
-          <li>
-            <a href='/why'>Why work with us?</a>
+            <a href='/winter'>Winter</a>
           </li>
         </nav>
         <div className='contact'>
-          <a href='/contact'>Let's work together</a>
+          <a href='/surprise'>🎄</a>
         </div>
         <div className='hamburger-menu'>
           <span></span>

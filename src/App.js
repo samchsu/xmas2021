@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
-import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import { motion, AnimateSharedLayout, AnimatePresence } from 'framer-motion/dist/framer-motion'
 import "./sass/main.scss";
+import Gallery from 'react-grid-gallery';
+import Link from 'next/link'
 
 // Components
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Loader from "./components/Loader";
+import Carousel from "react-multi-carousel";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -34,6 +37,12 @@ function App() {
                   src={process.env.PUBLIC_URL + `/images/image-2.jpg`}
                   layoutId='main-image-1'
                 />
+                  <img src={process.env.PUBLIC_URL + `/images/image-3.jpg`}/>
+                  <img src={process.env.PUBLIC_URL + `/images/image-4.jpg`}/>
+                  <img src={process.env.PUBLIC_URL + `/images/image-1.jpg`}/>
+                  <img src={process.env.PUBLIC_URL + `/images/image-5.jpg`}/>
+                  <img src={process.env.PUBLIC_URL + `/images/image-6.jpg`}/>
+                
               </div>
             )}
           </>
