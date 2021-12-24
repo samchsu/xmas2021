@@ -18,16 +18,16 @@ const Header = () => {
         </a>
         <nav className='nav'>
           <li>
-            <a href='/spring'>Spring</a>
+            <a href="/images/image-4.jpg" title="Palomar Mountain on March 6th"   target="_blank"  rel="noopener noreferrer">Spring</a>
           </li>
           <li>
-            <a href='/summer'>Summer</a>
+            <a href="/images/image-3.jpg" title="Long Beach on June 20th"  target="_blank"  rel="noopener noreferrer">Summer</a>
           </li>
           <li>
-            <a href='/fall'>Fall</a>
+            <a href="/images/image-5.jpg" title="Heart Lake on August 16th"  target="_blank"  rel="noopener noreferrer">Fall</a>
           </li>
           <li>
-            <a href='/winter'>Winter</a>
+            <a href="/images/image-7.jpg" title="Cheesecake Factory on December 13th"  target="_blank"  rel="noopener noreferrer">Winter</a>
           </li>
         </nav>
         <div className='contact'>
